@@ -10,3 +10,12 @@ import Foundation
 struct MyDetailPokemonEntity {
     
 }
+
+enum PokemonStatsName: String {
+case Hp = "hp"
+case Attack = "attack"
+case Defense = "defense"
+case SpecialAttack = "special-attack"
+case SpecialDefense = "special-defense"
+case Speed = "speed"
+}

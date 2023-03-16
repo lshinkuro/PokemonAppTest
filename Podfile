@@ -9,8 +9,10 @@ target 'PokemonAPP' do
   pod 'RxAlamofire', '6.1.1'
   pod 'RxSwift', '6.2.0'
   pod 'RxCocoa', '6.2.0'
+  pod 'RxGesture'
   pod 'netfox'
   pod 'Kingfisher', '~> 7.0'
+  pod 'lottie-ios'
 
   target 'PokemonAPPTests' do
     inherit! :search_paths

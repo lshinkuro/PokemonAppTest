@@ -37,7 +37,6 @@ class ApiManager {
                 endpoint.urlString(),
                 method: endpoint.method(),
                 parameters: endpoint.parameters,
-                encoding: endpoint.encoding,
                 headers: endpoint.headers,
                 interceptor: nil,
                 requestModifier: { $0.timeoutInterval = timeout })

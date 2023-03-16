@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeView" customModule="PokemonAPP" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="GgZ-ox-BaK" id="VEw-Sv-XDd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,14 +19,26 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="GgZ-ox-BaK">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" systemColor="systemCyanColor"/>
-            <point key="canvasLocation" x="10" y="21"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GgZ-ox-BaK" secondAttribute="bottom" id="GDX-4h-Nhj"/>
+                <constraint firstItem="GgZ-ox-BaK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Hff-Vi-ZQf"/>
+                <constraint firstItem="GgZ-ox-BaK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gsg-Qq-dpt"/>
+                <constraint firstItem="GgZ-ox-BaK" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="mTI-2y-nFB"/>
+            </constraints>
+            <point key="canvasLocation" x="9.9236641221374047" y="20.422535211267608"/>
         </view>
     </objects>
     <resources>
-        <systemColor name="systemCyanColor">
-            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

@@ -44,6 +44,18 @@
 		FABB25C629C2BF4F00934DC8 /* MyDetailPokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25C029C2BF4F00934DC8 /* MyDetailPokemonView.swift */; };
 		FABB25C729C2BF4F00934DC8 /* MyDetailPokemonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABB25C129C2BF4F00934DC8 /* MyDetailPokemonView.xib */; };
 		FABB25C829C2BF4F00934DC8 /* MyDetailPokemonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25C229C2BF4F00934DC8 /* MyDetailPokemonEntity.swift */; };
+		FABB25CB29C2C41400934DC8 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25CA29C2C41400934DC8 /* MainTabBar.swift */; };
+		FABB25CF29C2C7F600934DC8 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25CD29C2C7F600934DC8 /* PokemonCell.swift */; };
+		FABB25D029C2C7F600934DC8 /* PokemonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABB25CE29C2C7F600934DC8 /* PokemonCell.xib */; };
+		FABB25D229C2CDBD00934DC8 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25D129C2CDBD00934DC8 /* RoundedCornerView.swift */; };
+		FABB25D629C2F45B00934DC8 /* PokemonListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25D429C2F45B00934DC8 /* PokemonListCell.swift */; };
+		FABB25D729C2F45B00934DC8 /* PokemonListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABB25D529C2F45B00934DC8 /* PokemonListCell.xib */; };
+		FABB25D929C2FAAC00934DC8 /* GradientRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25D829C2FAAC00934DC8 /* GradientRoundedButton.swift */; };
+		FABB25DD29C300B700934DC8 /* PopUpAddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25DB29C300B700934DC8 /* PopUpAddList.swift */; };
+		FABB25DE29C300B700934DC8 /* PopUpAddList.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABB25DC29C300B700934DC8 /* PopUpAddList.xib */; };
+		FABB25E029C3032900934DC8 /* BasePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25DF29C3032900934DC8 /* BasePopUpViewController.swift */; };
+		FABB25E329C31CE900934DC8 /* pokemon-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = FABB25E229C31CE900934DC8 /* pokemon-loading.json */; };
+		FABB25E629C31D9100934DC8 /* PopupLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB25E529C31D9100934DC8 /* PopupLoading.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,6 +123,18 @@
 		FABB25C029C2BF4F00934DC8 /* MyDetailPokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetailPokemonView.swift; sourceTree = "<group>"; };
 		FABB25C129C2BF4F00934DC8 /* MyDetailPokemonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyDetailPokemonView.xib; sourceTree = "<group>"; };
 		FABB25C229C2BF4F00934DC8 /* MyDetailPokemonEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetailPokemonEntity.swift; sourceTree = "<group>"; };
+		FABB25CA29C2C41400934DC8 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		FABB25CD29C2C7F600934DC8 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		FABB25CE29C2C7F600934DC8 /* PokemonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCell.xib; sourceTree = "<group>"; };
+		FABB25D129C2CDBD00934DC8 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		FABB25D429C2F45B00934DC8 /* PokemonListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListCell.swift; sourceTree = "<group>"; };
+		FABB25D529C2F45B00934DC8 /* PokemonListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonListCell.xib; sourceTree = "<group>"; };
+		FABB25D829C2FAAC00934DC8 /* GradientRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRoundedButton.swift; sourceTree = "<group>"; };
+		FABB25DB29C300B700934DC8 /* PopUpAddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpAddList.swift; sourceTree = "<group>"; };
+		FABB25DC29C300B700934DC8 /* PopUpAddList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopUpAddList.xib; sourceTree = "<group>"; };
+		FABB25DF29C3032900934DC8 /* BasePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePopUpViewController.swift; sourceTree = "<group>"; };
+		FABB25E229C31CE900934DC8 /* pokemon-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "pokemon-loading.json"; sourceTree = "<group>"; };
+		FABB25E529C31D9100934DC8 /* PopupLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupLoading.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +251,7 @@
 		FABB258E29C2B61500934DC8 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				FABB25E129C31CD000934DC8 /* LottieFiles */,
 				FABB256629C2B53A00934DC8 /* Assets.xcassets */,
 				FABB255F29C2B53A00934DC8 /* SceneDelegate.swift */,
 				FABB255D29C2B53A00934DC8 /* AppDelegate.swift */,
@@ -251,6 +276,10 @@
 		FABB259029C2B64300934DC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				FABB25E429C31D8000934DC8 /* PopupLoading */,
+				FABB25DA29C3008300934DC8 /* PopupAddList */,
+				FABB25D129C2CDBD00934DC8 /* RoundedCornerView.swift */,
+				FABB25D829C2FAAC00934DC8 /* GradientRoundedButton.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -263,6 +292,7 @@
 				FABB259A29C2BADC00934DC8 /* NetworkManager */,
 				FABB259B29C2BAF500934DC8 /* BaseConstant.swift */,
 				FABB259829C2BA9900934DC8 /* BaseViewController.swift */,
+				FABB25DF29C3032900934DC8 /* BasePopUpViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -279,6 +309,7 @@
 		FABB25A129C2BE9800934DC8 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				FABB25CC29C2C7DE00934DC8 /* Cell */,
 				FABB25A429C2BF0400934DC8 /* HomePresenter.swift */,
 				FABB25A529C2BF0400934DC8 /* HomeRouter.swift */,
 				FABB25A629C2BF0400934DC8 /* HomeInteractor.swift */,
@@ -292,6 +323,7 @@
 		FABB25A229C2BED900934DC8 /* MyPokemonList */ = {
 			isa = PBXGroup;
 			children = (
+				FABB25D329C2F44600934DC8 /* Cell */,
 				FABB25B129C2BF2F00934DC8 /* MyPokemonListPresenter.swift */,
 				FABB25B229C2BF2F00934DC8 /* MyPokemonListRouter.swift */,
 				FABB25B329C2BF2F00934DC8 /* MyPokemonListInteractor.swift */,
@@ -318,8 +350,52 @@
 		FABB25C929C2C2A800934DC8 /* MainTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				FABB25CA29C2C41400934DC8 /* MainTabBar.swift */,
 			);
 			path = MainTabBar;
+			sourceTree = "<group>";
+		};
+		FABB25CC29C2C7DE00934DC8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FABB25CD29C2C7F600934DC8 /* PokemonCell.swift */,
+				FABB25CE29C2C7F600934DC8 /* PokemonCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FABB25D329C2F44600934DC8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FABB25D429C2F45B00934DC8 /* PokemonListCell.swift */,
+				FABB25D529C2F45B00934DC8 /* PokemonListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FABB25DA29C3008300934DC8 /* PopupAddList */ = {
+			isa = PBXGroup;
+			children = (
+				FABB25DB29C300B700934DC8 /* PopUpAddList.swift */,
+				FABB25DC29C300B700934DC8 /* PopUpAddList.xib */,
+			);
+			path = PopupAddList;
+			sourceTree = "<group>";
+		};
+		FABB25E129C31CD000934DC8 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FABB25E229C31CE900934DC8 /* pokemon-loading.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		FABB25E429C31D8000934DC8 /* PopupLoading */ = {
+			isa = PBXGroup;
+			children = (
+				FABB25E529C31D9100934DC8 /* PopupLoading.swift */,
+			);
+			path = PopupLoading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,7 +508,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FABB256A29C2B53A00934DC8 /* LaunchScreen.storyboard in Resources */,
+				FABB25E329C31CE900934DC8 /* pokemon-loading.json in Resources */,
+				FABB25D729C2F45B00934DC8 /* PokemonListCell.xib in Resources */,
 				FABB25C729C2BF4F00934DC8 /* MyDetailPokemonView.xib in Resources */,
+				FABB25DE29C300B700934DC8 /* PopUpAddList.xib in Resources */,
+				FABB25D029C2C7F600934DC8 /* PokemonCell.xib in Resources */,
 				FABB25AE29C2BF0400934DC8 /* HomeView.xib in Resources */,
 				FABB256729C2B53A00934DC8 /* Assets.xcassets in Resources */,
 				FABB256529C2B53A00934DC8 /* Main.storyboard in Resources */,
@@ -570,12 +650,16 @@
 				FABB25C329C2BF4F00934DC8 /* MyDetailPokemonPresenter.swift in Sources */,
 				FABB25AB29C2BF0400934DC8 /* HomeRouter.swift in Sources */,
 				FABB259E29C2BD7C00934DC8 /* Endpoint.swift in Sources */,
+				FABB25E029C3032900934DC8 /* BasePopUpViewController.swift in Sources */,
 				FABB25BC29C2BF2F00934DC8 /* MyPokemonListEntity.swift in Sources */,
 				FABB25A029C2BD8A00934DC8 /* NetworkManager.swift in Sources */,
+				FABB25CF29C2C7F600934DC8 /* PokemonCell.swift in Sources */,
+				FABB25DD29C300B700934DC8 /* PopUpAddList.swift in Sources */,
 				FABB259529C2B9F900934DC8 /* ExtColor.swift in Sources */,
 				FABB259C29C2BAF600934DC8 /* BaseConstant.swift in Sources */,
 				FABB25C529C2BF4F00934DC8 /* MyDetailPokemonInteractor.swift in Sources */,
 				FABB259329C2B9A700934DC8 /* ExtTableView.swift in Sources */,
+				FABB25CB29C2C41400934DC8 /* MainTabBar.swift in Sources */,
 				FABB25AC29C2BF0400934DC8 /* HomeInteractor.swift in Sources */,
 				FABB25BA29C2BF2F00934DC8 /* MyPokemonListView.swift in Sources */,
 				FABB255E29C2B53A00934DC8 /* AppDelegate.swift in Sources */,
@@ -585,10 +669,14 @@
 				FABB259729C2BA1A00934DC8 /* ExtUIView.swift in Sources */,
 				FABB259929C2BA9900934DC8 /* BaseViewController.swift in Sources */,
 				FABB256029C2B53A00934DC8 /* SceneDelegate.swift in Sources */,
+				FABB25D929C2FAAC00934DC8 /* GradientRoundedButton.swift in Sources */,
+				FABB25D629C2F45B00934DC8 /* PokemonListCell.swift in Sources */,
 				FABB25B829C2BF2F00934DC8 /* MyPokemonListRouter.swift in Sources */,
 				FABB25AF29C2BF0400934DC8 /* HomeEntity.swift in Sources */,
+				FABB25E629C31D9100934DC8 /* PopupLoading.swift in Sources */,
 				FABB25C829C2BF4F00934DC8 /* MyDetailPokemonEntity.swift in Sources */,
 				FABB25AA29C2BF0400934DC8 /* HomePresenter.swift in Sources */,
+				FABB25D229C2CDBD00934DC8 /* RoundedCornerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,7 +782,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -748,7 +836,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

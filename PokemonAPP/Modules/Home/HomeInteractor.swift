@@ -6,10 +6,15 @@
 //
 
 import Foundation
+import RxSwift
 
-class HomeInteractor {
+class HomeInteractor: BaseInteractor {
     
-    func fetchData() {
-        
+    func fetchPokemon(limit:Int, offset:Int) -> Observable<PokemonModel> {
+        api.requestAPI(endpoint: .getListPokemon(limit, offset))
+    }
+    
+    func fectchDetailPokemon(id: Int)  -> Observable<PokemonDetailModel> {
+        api.requestAPI(endpoint: .getDetailPokemon(id))
     }
 }

@@ -14,8 +14,8 @@ struct BaseConstant {
 }
 
 enum SFSymbols {
-    static let homeSymbol = UIImage(systemName: "house")
-    static let orderSymbol = UIImage(systemName: "basket")
+    static let homeSymbol = UIImage(named: "pokemon-64")
+    static let orderSymbol = UIImage(named: "star-pokemon-48")
     
     static let arrowSymbol = UIImage(systemName: "arrow.right.circle.fill")
     static let statusSymbol = UIImage(systemName: "circle.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 8, weight: .regular, scale: .default))
@@ -26,4 +26,9 @@ enum ScreenSize {
     static let height       = UIScreen.main.bounds.size.height
     static let maxLength    = max(ScreenSize.width, ScreenSize.height)
     static let minLength    = min(ScreenSize.width, ScreenSize.height)
+}
+
+extension CGFloat {
+    static let currentDeviceWidth  = UIScreen.main.bounds.width
+    static let currentDeviceHeight = UIScreen.main.bounds.height
 }

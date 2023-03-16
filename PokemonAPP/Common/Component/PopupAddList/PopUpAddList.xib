@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="futura_md_bt_bold.TTF">
+            <string>FuturaBT-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopUpAddList" customModule="PokemonAPP" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="LCp-sa-P04" id="KsT-3J-RXF"/>
+                <outlet property="btnOk" destination="vUL-l7-4Ao" id="aWe-j3-D6v"/>
+                <outlet property="imageField" destination="IG6-nS-8Xi" id="9Fk-FS-lbL"/>
+                <outlet property="nameTextField" destination="18t-1j-N8p" id="SEN-0J-oz9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewCoachmark" destination="qwA-d4-LZn" id="8vQ-Xz-QZZ"/>
+                <outlet property="viewInfo" destination="JSM-gU-mk3" id="L0d-VL-EAy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qwA-d4-LZn">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" red="0.2156862745" green="0.17572361772447553" blue="0.36489174123426577" alpha="0.40218431122448978" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JSM-gU-mk3">
+                    <rect key="frame" x="20" y="276.66666666666663" width="353" height="298.66666666666663"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o6P-tt-d4j">
+                            <rect key="frame" x="20" y="238.66666666666669" width="313" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCp-sa-P04" customClass="GradientRoundedButton" customModule="PokemonAPP" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="125" height="40"/>
+                                    <color key="backgroundColor" red="1" green="0.8100961538" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="125" id="X8V-ha-sOW"/>
+                                        <constraint firstAttribute="height" constant="40" id="lsm-Nc-gYU"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Back"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUL-l7-4Ao" customClass="GradientRoundedButton" customModule="PokemonAPP" customModuleProvider="target">
+                                    <rect key="frame" x="188" y="0.0" width="125" height="40"/>
+                                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="125" id="AEg-eI-aKD"/>
+                                        <constraint firstAttribute="height" constant="40" id="Vb4-xr-O2C"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Ok"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="LCp-sa-P04" firstAttribute="leading" secondItem="o6P-tt-d4j" secondAttribute="leading" id="5IB-zZ-f61"/>
+                                <constraint firstAttribute="bottom" secondItem="vUL-l7-4Ao" secondAttribute="bottom" id="axu-3Q-sbc"/>
+                                <constraint firstAttribute="bottom" secondItem="LCp-sa-P04" secondAttribute="bottom" id="fDk-G3-EGA"/>
+                                <constraint firstAttribute="trailing" secondItem="vUL-l7-4Ao" secondAttribute="trailing" id="kUL-Wq-NA7"/>
+                                <constraint firstItem="LCp-sa-P04" firstAttribute="top" secondItem="o6P-tt-d4j" secondAttribute="top" id="qV5-X7-9ZV"/>
+                                <constraint firstItem="vUL-l7-4Ao" firstAttribute="top" secondItem="o6P-tt-d4j" secondAttribute="top" id="tun-tZ-R4q"/>
+                            </constraints>
+                        </view>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IG6-nS-8Xi">
+                            <rect key="frame" x="136.66666666666666" y="20" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="GDu-uh-2Ln"/>
+                                <constraint firstAttribute="width" constant="80" id="x2l-1C-M71"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Name To Pokemon" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KfE-dI-ABe">
+                            <rect key="frame" x="20" y="116.00000000000001" width="313" height="24.666666666666671"/>
+                            <fontDescription key="fontDescription" name="FuturaBT-Bold" family="Futura Md BT" pointSize="21"/>
+                            <color key="textColor" red="0.2156862745" green="0.25098039220000001" blue="0.38431372549999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="myprofile.change_username"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f8x-7l-R34" customClass="RoundedCornerView" customModule="PokemonAPP" customModuleProvider="target">
+                            <rect key="frame" x="20" y="150.66666666666663" width="313" height="68"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="add nickname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="18t-1j-N8p">
+                                    <rect key="frame" x="8" y="5" width="297" height="58"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="68" id="0Ai-in-2wp"/>
+                                <constraint firstItem="18t-1j-N8p" firstAttribute="top" secondItem="f8x-7l-R34" secondAttribute="top" constant="5" id="7Rh-lG-qew"/>
+                                <constraint firstItem="18t-1j-N8p" firstAttribute="leading" secondItem="f8x-7l-R34" secondAttribute="leading" constant="8" id="Cid-M1-oup"/>
+                                <constraint firstAttribute="bottom" secondItem="18t-1j-N8p" secondAttribute="bottom" constant="5" id="Ui2-3b-jxk"/>
+                                <constraint firstAttribute="trailing" secondItem="18t-1j-N8p" secondAttribute="trailing" constant="8" id="spJ-Ll-gui"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" red="1" green="0.071626045520000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="IG6-nS-8Xi" firstAttribute="top" secondItem="JSM-gU-mk3" secondAttribute="top" constant="20" id="3J6-GM-g1P"/>
+                        <constraint firstItem="KfE-dI-ABe" firstAttribute="leading" secondItem="JSM-gU-mk3" secondAttribute="leading" constant="20" id="4sy-uR-dEH"/>
+                        <constraint firstItem="IG6-nS-8Xi" firstAttribute="centerX" secondItem="JSM-gU-mk3" secondAttribute="centerX" id="CeR-5n-Sx6"/>
+                        <constraint firstAttribute="trailing" secondItem="KfE-dI-ABe" secondAttribute="trailing" constant="20" id="IPa-wG-kTp"/>
+                        <constraint firstItem="o6P-tt-d4j" firstAttribute="top" secondItem="f8x-7l-R34" secondAttribute="bottom" constant="20" id="R3g-bu-ZAP"/>
+                        <constraint firstAttribute="trailing" secondItem="o6P-tt-d4j" secondAttribute="trailing" constant="20" id="XFq-vg-uDg"/>
+                        <constraint firstItem="f8x-7l-R34" firstAttribute="top" secondItem="KfE-dI-ABe" secondAttribute="bottom" constant="10" id="jv0-Hj-wry"/>
+                        <constraint firstItem="o6P-tt-d4j" firstAttribute="leading" secondItem="JSM-gU-mk3" secondAttribute="leading" constant="20" id="k24-7I-M7p"/>
+                        <constraint firstAttribute="trailing" secondItem="f8x-7l-R34" secondAttribute="trailing" constant="20" id="n5j-yJ-ief"/>
+                        <constraint firstItem="KfE-dI-ABe" firstAttribute="top" secondItem="IG6-nS-8Xi" secondAttribute="bottom" constant="16" id="n8Z-LP-NtK"/>
+                        <constraint firstItem="f8x-7l-R34" firstAttribute="leading" secondItem="JSM-gU-mk3" secondAttribute="leading" constant="20" id="sfj-K6-AxQ"/>
+                        <constraint firstAttribute="bottom" secondItem="o6P-tt-d4j" secondAttribute="bottom" constant="20" id="tCi-OF-tDL"/>
+                        <constraint firstItem="f8x-7l-R34" firstAttribute="top" secondItem="KfE-dI-ABe" secondAttribute="bottom" constant="10" id="ytb-Fp-9zf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="JSM-gU-mk3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="0IS-5J-CBX"/>
+                <constraint firstItem="qwA-d4-LZn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="EuU-NU-XTp"/>
+                <constraint firstAttribute="trailing" secondItem="qwA-d4-LZn" secondAttribute="trailing" id="FdI-in-7iF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JSM-gU-mk3" secondAttribute="trailing" constant="20" id="Zyh-2A-JUa"/>
+                <constraint firstItem="qwA-d4-LZn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aVL-aW-A5q"/>
+                <constraint firstAttribute="bottom" secondItem="qwA-d4-LZn" secondAttribute="bottom" id="bf7-jU-SU5"/>
+                <constraint firstItem="JSM-gU-mk3" firstAttribute="centerY" secondItem="qwA-d4-LZn" secondAttribute="centerY" id="pmk-aB-QdC"/>
+            </constraints>
+            <point key="canvasLocation" x="17.557251908396946" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

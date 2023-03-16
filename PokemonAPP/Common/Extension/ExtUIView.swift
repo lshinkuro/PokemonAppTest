@@ -17,12 +17,12 @@ extension UIView {
     
     
     func addBorderLine(width: CGFloat = 1,
-                       color: UIColor = .foodGrey3) {
+                       color: UIColor = .pokemonGrey3) {
         layer.borderWidth = width
         layer.borderColor = color.cgColor
     }
     
-    func addShadow(color: UIColor = .foodBlack80,
+    func addShadow(color: UIColor = .pokemonBlack80,
                    offset: CGSize = CGSize(width: 0, height: 3),
                    opacity: Float = 0.5,
                    radius: CGFloat = 2,
